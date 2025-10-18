@@ -1,0 +1,26 @@
+# SneakMeow 插件配置
+
+# 触发喵叫的物品（支持多个物品）
+trigger-items:
+  - "COD"
+  - "SALMON"
+  - "TROPICAL_FISH"
+  - "PUFFERFISH"
+
+# 喵叫声音配置
+meow-sound: "ENTITY_CAT_AMBIENT"
+sound-volume: 1.0
+sound-pitch: 1.2
+
+# 是否显示动作栏提示
+show-actionbar: true
+
+# 冷却时间（秒，防止频繁触发）
+cooldown: 3
+
+# 触发距离（格，范围内的玩家都能听到）
+hear-distance: 16
+
+# 是否发送聊天消息
+send-chat-message: true
+chat-message: "&e🐱 &6%player% &f发出了可爱的喵叫声！"

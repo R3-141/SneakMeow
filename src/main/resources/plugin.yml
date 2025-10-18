@@ -1,0 +1,20 @@
+name: SneakMeow
+version: '1.0.0'
+main: com.rakey.sneakmeow.SneakMeowPlugin
+api-version: '1.21'
+description: 持鱼潜行喵叫插件
+author: rakey
+
+commands:
+  sneakmeowreload:
+    description: 重新加载喵叫插件配置
+    usage: /<command>
+    permission: sneakmeow.reload
+
+permissions:
+  sneakmeow.use:
+    description: 允许使用持鱼喵叫功能
+    default: true
+  sneakmeow.reload:
+    description: 允许重新加载插件配置
+    default: op
